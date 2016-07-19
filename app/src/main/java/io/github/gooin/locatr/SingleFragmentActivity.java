@@ -1,4 +1,4 @@
-package io.github.gooin.sunset;
+package io.github.gooin.locatr;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

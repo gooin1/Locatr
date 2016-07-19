@@ -10,8 +10,12 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="io.github.gooin.locatr.LocatrActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"/>
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/image"
+        android:background="@android:color/white"
+        android:layout_centerInParent="true"
+        />
+
 </RelativeLayout>

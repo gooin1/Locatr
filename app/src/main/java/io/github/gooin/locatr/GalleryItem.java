@@ -1,9 +1,14 @@
-package com.bignerdranch.android.photogallery;
+package io.github.gooin.locatr;
 
+/**
+ * Created by gooin on 2016/7/4.
+ */
 public class GalleryItem {
+
     private String mCaption;
     private String mId;
     private String mUrl;
+
 
     public String getCaption() {
         return mCaption;
@@ -29,8 +34,5 @@ public class GalleryItem {
         mUrl = url;
     }
 
-    @Override
-    public String toString() {
-        return mCaption;
-    }
+
 }
